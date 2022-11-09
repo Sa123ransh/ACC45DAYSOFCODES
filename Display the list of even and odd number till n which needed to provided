@@ -1,0 +1,21 @@
+include <stdio.h>
+
+void main()
+{
+   int n;
+   printf("enter n");
+   scanf("\n %d",&n);
+   printf("\n list of n even number");
+   for(int i=2; i<=n; i+2)
+   {
+       printf("%d",i);
+       printf("\n");
+   }
+   printf("list of n odd no");
+   for(int i=1; i<=n; i=i+2)
+   {
+       printf("%d",i);
+       printf("\n");
+       
+   }
+   }
