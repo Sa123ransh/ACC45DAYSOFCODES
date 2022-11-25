@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d;
+    printf("enter the value of largest no a\n");
+    scanf("%d",&a);
+
+    printf("enter the value of largest no b\n");
+    scanf("%d",&b);
+
+    printf("enter the value of largest no c\n");
+    scanf("%d",&c);
+
+    printf(" enter the value of largest no d\n");
+    scanf("%d",&d);
+
+    if (a>b && a>c && a>d)
+    {
+        printf("the largest no is a\n");
+    }
+    else if (b>a && b>c && b>d)
+    {
+        printf("the largest no is b\n");
+    }
+    if (c>a && c>b && c>d)
+    {
+        printf("the largest no is c\n");
+    }
+    else if (d>a && d>b && d>c)
+    {
+        printf("the largest no is d\n");
+    }
+
+    return 0;
+}
