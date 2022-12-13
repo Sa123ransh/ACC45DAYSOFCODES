@@ -1,0 +1,27 @@
+#include <stdio.h>
+int e;
+int o;
+
+int main()
+{
+    int num;
+    printf("enter the number \n");
+    scanf("%d",&num);
+    if(num%2==0)
+    {
+        printf("the number is even %d\n",num);
+    }
+    else
+    {
+        printf("the number is odd %d\n",num);
+    }
+    return 0;
+}
+    
+    
+int eo(int a)
+{
+    int b;
+    a=b;
+    return (b%2==0);
+}
